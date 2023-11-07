@@ -1,6 +1,6 @@
 # Package Teste in Swift
 
-##Instalation
+## Instalation
 
 To install this package, import 'https://github.com/iStreet2/PackageTeste.git' in SPM.
 
