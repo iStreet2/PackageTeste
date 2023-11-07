@@ -4,6 +4,8 @@
 
 To install this package, import 'https://github.com/iStreet2/PackageTeste.git' in SPM.
 
+## Usage Example
+
 ```swift
 
 struct ContentView: View{
