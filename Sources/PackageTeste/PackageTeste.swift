@@ -1,15 +1,5 @@
 import SwiftUI
 
-extension View{
-    public func centralizarHorizontal() -> some View{
-        HStack{
-            Spacer()
-            self
-            Spacer()
-        }
-    }
-}
-
 struct GrowingButton: ButtonStyle {
     public func makeBody(configuration: Configuration) -> some View {
         configuration.label
