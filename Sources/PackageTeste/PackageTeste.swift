@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct GrowingButton: ButtonStyle {
+public struct GrowingButton: ButtonStyle {
     public func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .padding()
