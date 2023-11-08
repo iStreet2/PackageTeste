@@ -1,6 +1,7 @@
 import SwiftUI
 
 public struct GrowingButton: ButtonStyle {
+    public init(){}
     public func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .padding()
@@ -11,4 +12,3 @@ public struct GrowingButton: ButtonStyle {
             .animation(.easeOut(duration: 0.2), value: configuration.isPressed)
     }
 }
- 
