@@ -12,3 +12,12 @@ public struct GrowingButton: ButtonStyle {
             .animation(.easeOut(duration: 0.2), value: configuration.isPressed)
     }
 }
+
+public struct AlgumaCoisaView: View{
+    
+    public init(){}
+    
+    public var body: some View{
+        Text("Bonito é legal!")
+    }
+}
