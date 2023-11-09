@@ -7,9 +7,10 @@
 
 import SwiftUI
 
-struct Azeite: View {
+public struct Azeite: View {
     @State var scale = false
-    var body: some View {
+    public init(){}
+    public var body: some View {
         VStack{
             Text("Marina é inimiga!")
                 .font(.system(size:30))

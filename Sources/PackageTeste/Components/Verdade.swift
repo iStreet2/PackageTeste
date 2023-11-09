@@ -7,9 +7,10 @@
 
 import SwiftUI
 
-struct Verdade: View {
+public struct Verdade: View {
     @State var show = false
-    var body: some View {
+    public init(){}
+    public var body: some View {
         VStack{
             Spacer()
             Spacer()
