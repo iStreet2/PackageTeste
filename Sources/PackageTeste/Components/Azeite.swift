@@ -18,6 +18,7 @@ public struct Azeite: View {
                 .background(.blue)
                 .clipShape(RoundedRectangle(cornerRadius: 20))
                 .shadow(radius: 10)
+                .foregroundStyle(.white)
         }
         .scaleEffect(scale ? 1 : 0.4)
         .onAppear{
