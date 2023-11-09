@@ -14,14 +14,20 @@ public struct GrowingButton: ButtonStyle {
 }
 
 public struct AlgumaCoisaView: View{
-    
     public init(){}
-    
     public var body: some View{
         Text("Bonito é legal!")
     }
 }
 
+
+
 #Preview{
-    AlgumaCoisaView()
+    VStack{
+        Button(action: {}, label: {
+            Text("Button")
+        })
+        .buttonStyle(GrowingButton())
+        AlgumaCoisaView()
+    }
 }
