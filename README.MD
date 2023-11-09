@@ -18,8 +18,6 @@ struct ContentView: View{
             } label: {
             }
             .buttonStyle(GrowingButton())
-            //OR
-            AlgumaCoisaView()
         }
         //OR
         AlgumaCoisaView()
