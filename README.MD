@@ -7,6 +7,8 @@ To install this package, import "https://github.com/iStreet2/PackageTeste.git" i
 ## Usage Example
 
 ```swift
+import PackageTeste
+import SwfitUI
 
 struct ContentView: View{
     var body: some View{
@@ -16,6 +18,8 @@ struct ContentView: View{
             } label: {
             }
             .buttonStyle(GrowingButton())
+            //OR
+            AlgumaCoisaView()
         }
         //OR
         AlgumaCoisaView()
