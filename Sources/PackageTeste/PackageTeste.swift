@@ -21,3 +21,7 @@ public struct AlgumaCoisaView: View{
         Text("Bonito é legal!")
     }
 }
+
+#Preview{
+    AlgumaCoisaView()
+}

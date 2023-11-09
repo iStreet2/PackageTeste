@@ -2,7 +2,7 @@
 
 ## Instalation
 
-To install this package, import 'https://github.com/iStreet2/PackageTeste.git' in SPM.
+To install this package, import "https://github.com/iStreet2/PackageTeste.git" in SPM.
 
 ## Usage Example
 
@@ -14,10 +14,11 @@ struct ContentView: View{
             Button {
                 print("Hello World")
             } label: {
-                
             }
             .buttonStyle(GrowingButton())
         }
+        //OR
+        AlgumaCoisaView()
     }
 }
 
