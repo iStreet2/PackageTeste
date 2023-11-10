@@ -33,5 +33,5 @@ public struct Verdade: View {
 }
 
 #Preview {
-    Verdade(text: "Sabrina é uma gostosa")
+    Verdade(text: "Marina é inimiga!")
 }
