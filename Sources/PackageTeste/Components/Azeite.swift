@@ -9,10 +9,13 @@ import SwiftUI
 
 public struct Azeite: View {
     @State var scale = false
-    public init(){}
+    @State var text: String
+    public init(text: String){
+        self.text = text
+    }
     public var body: some View {
         VStack{
-            Text("Marina é inimiga!")
+            Text(text)
                 .font(.system(size:30))
                 .padding()
                 .background(.blue)
@@ -32,5 +35,5 @@ public struct Azeite: View {
 }
 
 #Preview {
-    Azeite()
+    Azeite(text: "")
 }

@@ -9,7 +9,10 @@ import SwiftUI
 
 public struct Verdade: View {
     @State var show = false
-    public init(){}
+    @State var text: String
+    public init(text: String){
+        self.text = text
+    }
     public var body: some View {
         VStack{
             Spacer()
@@ -22,7 +25,7 @@ public struct Verdade: View {
             .buttonStyle(GrowingButton())
             Spacer()
             if show{
-                Azeite()
+                Azeite(text: text)
             }
             Spacer()
         }
@@ -30,5 +33,5 @@ public struct Verdade: View {
 }
 
 #Preview {
-    Verdade()
+    Verdade(text: "Sabrina é uma gostosa")
 }
